@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Assignment</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My HTML5 Assignment</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List (Roman Numerals)</h2>
+        <ol type="I">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Image from Pexels</h2>
+        <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" 
+             alt="Nature Scene from Pexels" 
+             width="400">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>123 Main St</td>
+                    <td>+250788000001</td>
+                    <td>alice@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Smith</td>
+                    <td>456 Elm Rd</td>
+                    <td>+250788000002</td>
+                    <td>bob@example.com</td>
+                </tr>
+                <tr>
+                    <td>Carla Mendes</td>
+                    <td>789 Oak Ln</td>
+                    <td>+250788000003</td>
+                    <td>carla@example.com</td>
+                </tr>
+                <tr>
+                    <td>Daniel Lee</td>
+                    <td>321 Pine St</td>
+                    <td>+250788000004</td>
+                    <td>daniel@example.com</td>
+                </tr>
+                <tr>
+                    <td>Eva Niyonsaba</td>
+                    <td>654 Cedar Blvd</td>
+                    <td>+250788000005</td>
+                    <td>eva@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form>
+            <!-- Name Field -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required><br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown Field -->
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">--Select Country--</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="uganda">Uganda</option>
+                <option value="kenya">Kenya</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <p>Interests:</p>
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="interest" value="sports">
+            <label for="sports">Sports</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My HTML Assignment</p>
+    </footer>
+
+</body>
+</html>
